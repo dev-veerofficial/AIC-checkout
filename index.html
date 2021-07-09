@@ -31,7 +31,7 @@
                     <nav>
                         <a href="#"> <span class="circle">1</span> <span class="headtext"> Entry Type </span></a>
                         <a href="#"> <span class="circle">2</span> <span class="headtext"> Personal Details </span></a>
-                        <a href="#"> <span class="circle">3</span> <span class="headtext"> Select T-Shirt Size
+                        <a href="#"> <span class="circle">3</span> <span class="headtext"> Select Jersey Size
                             </span></a>
                         <a href="#"> <span class="circle">4</span> <span class="headtext"> Finalise Order </span></a>
                     </nav>
@@ -39,7 +39,7 @@
                 <div class="wz-body">
                     <div class="wz-step">
                         <div class="section-wrapper">
-                            <h1><span class="ext">100k in 30 Days -</span> Select Registration Type</h1>
+                            <h1><span class="ext"></span> Select Registration Type</h1>
                             <h4>Please select number of individual entries or choose our Family Pack offer</h4>
                             <div class="box entrybox filled-light-pink">
                                 <div class="box-ticketcounter">
@@ -167,6 +167,11 @@
                                             </label>
                                         </div>
                                         <div class="inputbox">
+                                            <label for="a1-firstname">Password <br>
+                                                <input type="password" class="vinput" placeholder="Enter Password">
+                                            </label>
+                                        </div>
+                                        <div class="inputbox">
                                             <label for="a1-firstname">Gender</label> <br>
                                             <div class="radiobox">
                                                 <input type="radio" id="male" name="radio-group1">
@@ -175,19 +180,32 @@
                                                 <label for="female">Female</label>
                                             </div>
                                         </div>
-                                        <div class="clear"></div>
                                         <div class="inputbox">
                                             <label for="a1-firstname">Phone Number <br>
                                                 <input type="text" class="vinput" placeholder="Enter Phone Number">
                                             </label>
                                         </div>
                                         <div class="inputbox">
-                                            <label for="a1-firstname">Password <br>
-                                                <input type="password" class="vinput" placeholder="Enter Password">
+                                            <label for="a1-firstname">Select County <br>
+                                                <select class="vinput">
+                                                    <option value="" selected disabled>Select County</option>
+                                                    <option value="">Dublin</option>
+                                                    <option value="">Waterford</option>
+                                                </select>
                                             </label>
                                         </div>
+                                        <div class="inputbox">
+                                            <label for="a1-firstname">Select Club <br>
+                                                <select class="vinput">
+                                                    <option value="" selected disabled>Select Club</option>
+                                                    <option value="">Super Cyclists</option>
+                                                    <option value="">Fire Wheels</option>
+                                                </select>
+                                            </label>
+                                        </div>
+                                       
                                         <div class="clear"></div>
-                                        <div>
+                                        <div class="d-flex justify-content-end">
                                             <a href="" class="btn btn-primary btn-primary-sm">Next</a>
                                         </div>
                                     </div>
@@ -261,7 +279,7 @@
                     </div>
                     <div class="wz-step">
                         <div class="section-wrapper">
-                            <h1>Select T-Shirt Size</h1>
+                            <h1>Select Jersey Size</h1>
                             <span class="lightnote"> <em>* Shipping will be calculated at checkout.</em></span>
                             <div class="row box-teeinfo">
                                 <div class="col-12 col-md-6">
@@ -271,10 +289,11 @@
                                                 <label for="a1-firstname">Adult 1<br>
                                                     <select name="tsize-ad1" id="tsize-ad1" class="vinput">
                                                         <option value="">Select Size</option>
-                                                        <option value="">M</option>
-                                                        <option value="">L</option>
-                                                        <option value="">XL</option>
-                                                        <option value="">XXL</option>
+                                                        <option value="">No Jersey</option>
+                                                        <option value="">M - (€50.00)</option>
+                                                        <option value="">L - (€50.00)</option>
+                                                        <option value="">XL - (€50.00)</option>
+                                                        <option value="">XXL - (€50.00)</option>
                                                     </select>
                                                 </label>
                                             </div>
@@ -283,67 +302,66 @@
                                                 <label for="a1-firstname">Adult 2<br>
                                                     <select name="tsize-ad1" id="tsize-ad1" class="vinput">
                                                         <option value="">Select Size</option>
-                                                        <option value="">M</option>
-                                                        <option value="">L</option>
-                                                        <option value="">XL</option>
-                                                        <option value="">XXL</option>
+                                                        <option value="">No Jersey</option>
+                                                        <option value="">M - (€50.00)</option>
+                                                        <option value="">L - (€50.00)</option>
+                                                        <option value="">XL - (€50.00)</option>
+                                                        <option value="">XXL - (€50.00)</option>
                                                     </select>
                                                 </label>
                                             </div>
                                             <!--  -->
                                             <div class="tsize inputbox">
-                                                <label for="a1-firstname">Child 1<br>
+                                                <label for="a1-firstname">Adult 3<br>
                                                     <select name="tsize-ad1" id="tsize-ad1" class="vinput">
                                                         <option value="">Select Size</option>
-                                                        <option value="">M</option>
-                                                        <option value="">L</option>
-                                                        <option value="">XL</option>
-                                                        <option value="">XXL</option>
+                                                        <option value="">No Jersey</option>
+                                                        <option value="">M - (€50.00)</option>
+                                                        <option value="">L - (€50.00)</option>
+                                                        <option value="">XL - (€50.00)</option>
+                                                        <option value="">XXL - (€50.00)</option>
                                                     </select>
                                                 </label>
                                             </div>
                                             <!--  -->
                                             <div class="tsize inputbox">
-                                                <label for="a1-firstname">Child 2<br>
+                                                <label for="a1-firstname">Adult 4<br>
                                                     <select name="tsize-ad1" id="tsize-ad1" class="vinput">
                                                         <option value="">Select Size</option>
-                                                        <option value="">M</option>
-                                                        <option value="">L</option>
-                                                        <option value="">XL</option>
-                                                        <option value="">XXL</option>
+                                                        <option value="">No Jersey</option>
+                                                        <option value="">M - (€50.00)</option>
+                                                        <option value="">L - (€50.00)</option>
+                                                        <option value="">XL - (€50.00)</option>
+                                                        <option value="">XXL - (€50.00)</option>
                                                     </select>
                                                 </label>
                                             </div>
                                         </div>
-                                        <div class="col-12 alert alert-warning mx-3">
+                                        <!-- <div class="col-12 alert alert-warning mx-3">
                                             Due to overwhelming demand we are restocking and there is a 7 days
-                                            turnaround on L, XL, XXL, and U12, but you will get your t-shirt!
-                                        </div>
+                                            turnaround on L, XL, XXL, and U12, but you will get your Jersey!
+                                        </div> -->
                                     </div>
                                 </div>
                                 <div class="col-12 col-md-6 teeconcent">
                                     <div class="dummytee">
                                         <img src="assets/images/tee.jpg" alt="">
                                     </div>
-                                    <div class="concent">
+                                    <!-- <div class="concent">
                                         <label for="consent">
                                             <input type="checkbox" class="vcheckbox" name="consent" id="consent">
-                                            Please check this box if you prefer not to receive a T-Shirt(s)
+                                            Please check this box if you prefer not to receive a Jersey(s)
                                         </label>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                             <div class="clear"></div>
                             <div class="box-orginfo">
                                 <div class="orginfo-cntnr">
-                                    <div class="textlabel">Are you participating as part of a company, club or
-                                        organization?
-                                    </div>
-                                    <div class="box-input">
-                                        <select name="selectorg" id="selectorg" class="lg-select vinput">
-                                            <option value="">Select Option</option>
-                                            <option value="">XYZ Organization LLC</option>
-                                        </select>
+                                    <div class="textlabel">
+                                        <h5><strong class="text-primary">Total Jersey Cost: €150.00</strong></h5>
+                                        <div>Your Current Total: (€90.00 + €150.00) = <span class="text-primary"><strong>€240.00</strong></span></div>
+                                        <div>Tax and Shipping charge will be added on next step</div>
                                     </div>
                                 </div>
                             </div>
@@ -390,16 +408,18 @@
                                     </label>
                                 </div>
                                 <div class="clear"></div>
-                                <hr class="hr-lightblue">
+                                <!-- <hr class="hr-lightblue">
                                 <div class="discountcode">
                                     <label for="a1-firstname">Hava a discount code?</label>
                                     <input type="text" class="vinput lg" placeholder="Enter discount code here">
                                     <button class="btn btn-attached">APPLY</button>
-                                </div>
+                                </div> -->
                             </div>
                             <div class="bx bx-50 bx-ordersummary">
                                 <h4 class="subheading">Order Summary</h4>
                                 <div class="summarybox">
+                                    <div class="smrytitle"><strong>Entry Charges</strong><hr class="midline"></div>
+                                    
                                     <div class="smryitem pt0">
                                         <span class="itemname">1 x Adult</span>
                                         <span class="itemvalue">€25.00</span>
@@ -409,18 +429,14 @@
                                         <span class="itemvalue">€25.00</span>
                                     </div>
                                     <div class="clear"></div>
-                                    <hr>
+                                    <div class="smrytitle"><strong>Jersey Charges</strong> <hr class="midline"></div>
                                     <div class="smryitem pt0">
-                                        <span class="itemname"><strong>Sub-Total</strong></span>
-                                        <span class="itemvalue"><strong>€50.00</strong></span>
+                                        <span class="itemname">3 x Jersey</span>
+                                        <span class="itemvalue">€150.00</span>
                                     </div>
                                     <div class="smryitem">
-                                        <span class="itemname">Postage & Package</span>
-                                        <span class="itemvalue">€5.95</span>
-                                    </div>
-                                    <div class="smryitem">
-                                        <span class="itemname">Discount Code</span>
-                                        <span class="itemvalue">€0.00</span>
+                                        <span class="itemname">Shipping Cost</span>
+                                        <span class="itemvalue">€25.00</span>
                                     </div>
                                     <div class="clear"></div>
                                     <hr>
@@ -429,12 +445,12 @@
                                         <span class="itemvalue"><strong>€55.95</strong></span>
                                     </div>
                                 </div>
-                                <div class="concent end">
+                                <!-- <div class="concent end">
                                     <label for="consent2">
                                         <input type="checkbox" class="vcheckbox" name="consent2" id="consent2">
                                         I wish to cover the payment processing fees of €1.15
                                     </label>
-                                </div>
+                                </div> -->
                                 <div class="concent end">
                                     <label for="tnc">
                                         <input type="checkbox" class="vcheckbox" name="tnc" id="tnc">

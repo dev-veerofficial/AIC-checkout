@@ -13,8 +13,12 @@ body {
     background-color: #dd478c;
 }
 
+.text-primary{
+    color: #B50068 !important;
+}
+
 a{
-    color: #dd478c;
+    color: #006AB7;
 }
 
 .show-xs{display: none;}
@@ -80,7 +84,7 @@ a{
 }
 
 .wz-step h1 {
-    color: #e5007b;
+    color: #B50068;
     font-weight: normal;
     margin: 10px auto;
     font-size: 32px;
@@ -101,7 +105,7 @@ a{
 
 span.circle {
     display: inline-block;
-    color: #b47dab;
+    color: #95A6C1;
     background: #fff;
     width: 30px;
     height: 30px;
@@ -117,7 +121,7 @@ span.circle {
 
 a.active span.circle {
     display: inline-block;
-    color: #e5007b;
+    color: #0076BE;
     background: #fff;
     width: 30px;
     height: 30px;
@@ -148,12 +152,12 @@ a.active span.circle {
 }
 
 .box.filled-light-pink {
-    background: #fbf6f6;
+    background: rgba(228, 238, 254, 0.5);
     margin-top: 25px;
 }
 
 .outlined-pink {
-    border: 2px solid rgba(221,71,140,0.5);
+    border: 2px solid rgba(181, 0, 104, 0.5);
 }
 
 /* ticket counter */
@@ -193,7 +197,7 @@ a.active span.circle {
     background: #fff;
     text-align: center;
     border-radius: 5px;
-    border: 1px solid #dd478c;
+    border: 1px solid #B50068;
     box-sizing: border-box;
     display: flex;
     align-items: center;
@@ -218,7 +222,7 @@ a.active span.circle {
     height: 37px;
     font-size: 18px;
     color: #fff;
-    background: #dd478c;
+    background: #0076BE;
     display: inline-block;
     text-align: center;
     line-height: 37px;
@@ -251,7 +255,7 @@ a.active span.circle {
     line-height: 48px;
     font-size: 22px;
     text-align: center;
-    color: #dd478c;
+    color: #B50068;
     font-weight: bold;
     border: none;
     background-color: transparent;
@@ -314,7 +318,7 @@ span.highlight{
 .entrycount span.num{
     font-size: 26px;
     font-weight: bold;
-    color: #dd478c;
+    color: #B50068;
 }
 
 
@@ -356,12 +360,12 @@ ul.accordion .inner {
   }
 
   a.toggle.completed{
-      color: #dd478c !important;
+      color: #0076BE !important;
   }
 
   a.btn.btn-sm.btn-edit {
     float: right;
-    background: #dd478c;
+    background: #0076BE;
     border-radius: 15px;
     padding: 2px 12px;
     color: #fff;
@@ -428,7 +432,7 @@ label:not(.radiobox label){
     min-width: 70px;
     min-height: 30px;
     line-height: 30px;
-    background-color: #dd478c;
+    background-color: #0076BE;
     color: #fff;
     text-align: center;
     font-size: 16px;
@@ -478,6 +482,12 @@ label:not(.radiobox label){
     line-height: 2;
 }
 
+.textlabel div {
+    line-height: 22px;
+    font-size: 16px;
+    color: #95A6C1;
+}
+
 .box-input{
     width: 40%;
     float: left;
@@ -488,18 +498,18 @@ label:not(.radiobox label){
 }
 
 .box-orginfo {
-    border: 2px solid #dd478c;
+    border: 0px solid #dd478c;
     overflow: hidden;
-    padding: 20px;
+    padding: 20px 10px;
     border-radius: 10px;
     margin-top: 20px;
-    background-color: #FFF3F9;
+    background-color: #F3F8FF;
 }
 .orginfo-cntnr {
     height: auto;
     overflow: hidden;
     border: 0px solid;
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
 }
 
@@ -555,33 +565,49 @@ label:not(.radiobox label){
 }
 
 .summarybox{
-    border: 1px solid rgba(156,115,199,0.5);
-    background-color: rgba(244,233,252,0.5);
+    border: 1px solid rgba(149, 166, 193, 0.5);
+    background-color: rgba(241, 244, 254, 0.5);
     box-sizing: border-box;
     padding: 20px;
-    font-size: 22px;
+    font-size: 18px;
     overflow: hidden;
 }
 
 .smryitem.total{
-    color: #DD478C;
+    color: #006AB7;
     font-weight: bold;
     font-size: 22px;
 }
 
 .smryitem{
-    padding: 20px 0;
+    padding: 0px;
 }
 
 .smryitem .itemname {
     float: left;
     width: 70%;
+    margin: 5px 0;
 }
 .smryitem .itemvalue {
     float: right;
     width: 30%;
     text-align: right;
 }
+
+.smrytitle{
+    color: #747B92;
+    margin: 5px auto;
+    position: relative;
+}
+
+.smrytitle strong {
+    background: #F8F9FE;
+    display: inline-block;
+    padding: 0 10px 0 0;
+    position: relative;
+    z-index: 1;
+}
+
 .pt0{padding-top: 0;}
 
 .concent.end{
@@ -632,7 +658,7 @@ label:not(.radiobox label){
     content: '';
     width: 12px;
     height: 12px;
-    background: #F87DA9;
+    background: #0076BE;
     position: absolute;
     top: 3px;
     left: 3px;
@@ -662,4 +688,11 @@ form#form_submit {
 
 .lightnote{
     color: #95a6c1;
+}
+
+hr.midline {
+    position: absolute;
+    top: -3px;
+    left: 0;
+    width: 100%;
 }
