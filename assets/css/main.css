@@ -1,0 +1,665 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+body {
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Roboto";
+    height: 100vh;
+}
+
+*:focus{outline:0;}
+
+.bg-primary {
+    background-color: #dd478c;
+}
+
+a{
+    color: #dd478c;
+}
+
+.show-xs{display: none;}
+
+.centered {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 20px 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border: 0px solid #000;
+}
+
+.branding {
+    max-width: 200px;
+    overflow: hidden;
+    margin: 0 auto 20px;
+    height: auto;
+}
+
+.branding img {
+    max-width: 100%;
+}
+
+.wrapper .info {
+    text-align: center;
+}
+
+.wrapper .info h2 {
+    color: #ffffff;
+    margin-left: 40px;
+}
+
+.wrapper .info h2 > span {
+    opacity: 0.5;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.wrapper .info p {
+    margin: 0px 0px 50px 0px;
+    color: #ffffff;
+}
+
+/* Custom */
+.wz-wrapper {
+    min-width: 1088px;
+    min-height: 750px;
+}
+
+.wz-header {
+    min-height: 80px;
+}
+
+.wz-wrapper .wz-inner .wz-header nav .progress {
+    border-radius: 15px 15px 15px 0;
+}
+
+.wz-step h1 {
+    color: #e5007b;
+    font-weight: normal;
+    margin: 10px auto;
+    font-size: 32px;
+}
+
+.wz-step h4{
+    color: #95A6C1;
+    font-weight: normal;
+    font-size: 18px;
+    margin: 10px auto;
+}
+
+.section-wrapper{
+    padding: 20px;
+    padding-top: 5px;
+    box-sizing: border-box;
+}
+
+span.circle {
+    display: inline-block;
+    color: #b47dab;
+    background: #fff;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 0;
+    line-height: 2;
+    margin-right: 5px;
+}
+
+a.active span.circle {
+    display: inline-block;
+    color: #e5007b;
+    background: #fff;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 0;
+    line-height: 2;
+    margin-right: 5px;
+}
+
+.btn-footer {
+    width: auto;
+    height: auto;
+    border-radius: 50px !important;
+    font-size: 20px !important;
+    line-height: 30px;
+}
+
+ .entrybox{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.box.filled-light-pink {
+    background: #fbf6f6;
+    margin-top: 25px;
+}
+
+.outlined-pink {
+    border: 2px solid rgba(221,71,140,0.5);
+}
+
+/* ticket counter */
+.box-ticketcounter div {
+    float: left;
+}
+
+.bc1,.bc2,.bc3{
+    display: flex;
+    align-items: center;
+    min-height: 80px;
+}
+
+.bc1{
+    width: 35%;
+    border: 0px solid #000;
+}
+
+.bc2{
+    width: 40%;
+    border: 0px solid #000;
+}
+
+.bc3{
+    width: 25%;
+    border: 0px solid #000;
+    justify-content: center;
+}
+
+.clear {
+    clear: both;
+}
+
+.box-ticketcounter .icon {
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #dd478c;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box-ticketcounter div {
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.box-ticketcounter .name .title {
+    font-size: 22px;
+    display: block;
+}
+
+.box-ticketcounter .name .note {
+    font-size: 16px;
+    color: #af92a1;
+}
+
+.chip span {
+    width: 80px;
+    height: 37px;
+    font-size: 18px;
+    color: #fff;
+    background: #dd478c;
+    display: inline-block;
+    text-align: center;
+    line-height: 37px;
+    border-radius: 18px;
+}
+
+.counter button {
+    height: 48px;
+    width: 48px;
+    line-height: 35px;
+    background: #ffffff;
+    color: #333333;
+    border: none;
+    font-size: 48px;
+    border-radius: 5px;
+    box-shadow: 0 0 6px #e8f1ff;
+    cursor: pointer;
+    position: relative;
+}
+
+.counter .tcount:focus,
+.counter button:focus,
+.counter button:active {
+    outline: 0;
+}
+
+.counter .tcount {
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+    font-size: 22px;
+    text-align: center;
+    color: #dd478c;
+    font-weight: bold;
+    border: none;
+    background-color: transparent;
+}
+
+.box-ticketcounter .price {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+    float: right;
+    margin-right: 30px;
+}
+
+span.highlight{
+    color: #EC4C46;
+    font-weight: bold;
+    font-size: 14px;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.saperation{
+    padding: 20px 0;
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #dd478c;
+    font-weight: bold;
+}
+
+.outlined-pink + p{
+    color: #95A6C1;
+    margin:10px;
+    padding: 10px 0;
+    font-size: 18px;
+}
+
+.bottom-strip{
+    background-color: rgba(228,238,254,0.5);
+    width: 100%;
+    height: 60px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.bottom-strip div{
+    float: right;
+}
+
+.entrycount{
+    font-size: 18px;
+    margin: 0 20px;
+    vertical-align: middle;
+    margin-right: 70px;
+}
+
+.entrycount span.num{
+    font-size: 26px;
+    font-weight: bold;
+    color: #dd478c;
+}
+
+
+ul.accordion{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+ul.accordion .inner {
+    padding-left: 1em;
+    overflow: hidden;
+    display: none;
+  }
+  
+  ul.accordion li {
+    margin: 0.5em 0;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+
+  ul.accordion li a{
+      text-decoration: none;
+  }
+  
+  ul.accordion li .toggle {
+    width: 100%;
+    display: block;
+    background: #F3F8FF;
+    /* color: #dd478c; */
+    color: #95A6C1; 
+    padding: 0.75em;
+    border-radius: 0.15em;
+    transition: 0.3s ease;
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  a.toggle.completed{
+      color: #dd478c !important;
+  }
+
+  a.btn.btn-sm.btn-edit {
+    float: right;
+    background: #dd478c;
+    border-radius: 15px;
+    padding: 2px 12px;
+    color: #fff;
+    margin-left: 5px;
+}
+
+  label{
+      color: #95A6C1;
+      font-size: 14px;
+  }
+
+  input.vinput, 
+  select.vinput{
+      width: 208px;
+      height: 35px;
+      border: 1px solid #95A6C1;
+      box-sizing: border-box;
+      padding-left: 10px;
+      min-width: 100%;
+  }
+
+  input.vinput:focus,
+  select.vinput:focus{
+      outline: 0;
+  }
+  
+  /* ul.accordion li a.toggle:hover {
+    background: rgba(0, 0, 0, 0.9);
+  } */
+
+
+  .inputbox {
+    width: 25%;
+    float: left;
+    overflow: hidden;
+    margin: 10px auto;
+    padding: 0 10px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: visible;
+}
+
+
+span.inputnote{
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 14px;
+    position: absolute;
+    width: 100%;
+    left: 7px;
+    bottom: -24px;
+}
+
+.btn-primary,
+.btn-success{
+    border: none;
+}
+
+label:not(.radiobox label){
+    width: 100%;
+}
+
+.btn-primary-sm{
+    min-width: 70px;
+    min-height: 30px;
+    line-height: 30px;
+    background-color: #dd478c;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    display: inline-block;
+    border-radius: 15px;
+    margin: 20px 12px 5px 0px;
+    box-sizing: border-box;
+    padding: 0 30px;
+    text-decoration: none;
+}
+
+.box-tsize,
+.teeconcent{
+    width:100%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.dummytee{
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.tsize.inputbox{
+    width: 50%;
+    min-height: 80px;
+    margin-bottom: 0;
+}
+
+.concent{
+    font-size: 16px;
+    max-width: 300px;
+    margin: 20px auto 0 auto;
+}
+
+.concent label{
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.textlabel{
+    font-size: 16px;
+    max-width: 60%;
+    float: left;
+    line-height: 2;
+}
+
+.box-input{
+    width: 40%;
+    float: left;
+    margin-left: 30px;
+}
+.box-input select{
+    width: 100%;
+}
+
+.box-orginfo {
+    border: 2px solid #dd478c;
+    overflow: hidden;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: #FFF3F9;
+}
+.orginfo-cntnr {
+    height: auto;
+    overflow: hidden;
+    border: 0px solid;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.bx{height: auto;
+    overflow: hidden;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 0px solid #000000;}
+
+.bx-50{width: 50%;}
+.bx-40{width: 40%;}
+.bx-30{width: 30%;}
+
+.subheading{
+    font-weight: bold !important;
+    font-size: 18px !important;
+    color: #111 !important;
+}
+
+.bx-ordersummary{
+    float: right;
+    max-width: 430px;
+}
+
+.fullwidth{
+    width: 100%;
+    clear: both;
+}
+
+.vinput.fullwidth{
+    max-width: 100%;
+}
+
+.discountcode{
+    position: relative;
+    padding: 5px 10px;
+}
+
+.discountcode input{
+    height: 45px;
+}
+
+.btn-attached{
+    width: 87px;
+    height: 45px;
+    background: #dd478c;
+    color: #fff;
+    border: none;
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+
+.summarybox{
+    border: 1px solid rgba(156,115,199,0.5);
+    background-color: rgba(244,233,252,0.5);
+    box-sizing: border-box;
+    padding: 20px;
+    font-size: 22px;
+    overflow: hidden;
+}
+
+.smryitem.total{
+    color: #DD478C;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.smryitem{
+    padding: 20px 0;
+}
+
+.smryitem .itemname {
+    float: left;
+    width: 70%;
+}
+.smryitem .itemvalue {
+    float: right;
+    width: 30%;
+    text-align: right;
+}
+.pt0{padding-top: 0;}
+
+.concent.end{
+    width: 100%;
+    max-width: 100%;
+}
+
+.hr-pink{
+    border-top: 1px solid #F2DFE8;
+}
+
+.hr-lightblue{
+    border-top: 1px solid #E4EEFE;
+}
+
+.radiobox{
+    margin-top: 5px;
+}
+
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+[type="radio"]:checked + label, [type="radio"]:not(:checked) + label {
+    position: relative;
+    padding-left: 24px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+    padding-right: 9px;
+}
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #ddd;
+    border-radius: 100%;
+    background: #fff;
+}
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: #F87DA9;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+[type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+form#form_submit {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.box-tsize .tsize.inputbox label {
+    width: 92%;
+}
+
+.lightnote{
+    color: #95a6c1;
+}

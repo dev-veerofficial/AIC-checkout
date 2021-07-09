@@ -1,0 +1,262 @@
+@media only screen and (min-width: 300px) and (max-width: 1023px) {
+    .section-wrapper {
+        padding: 10px;
+    }
+    .wz-wrapper {
+        min-width: auto;
+        max-width: 96%;
+        margin: 0 auto;
+    }
+    .bx-40,
+    .bx-50 {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .inputbox.fullwidth {
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .tsize.inputbox:nth-child(even) {
+        padding-left: 0;
+        margin-left: 0;
+    }
+    .tsize.inputbox:nth-child(odd) {
+        padding-right: 0;
+        margin-right: 0;
+    }
+    .bx.bx-50.bx-ordersummary h4 {
+        margin: 35px auto 20px;
+    }
+
+    .wz-step h1 {
+        width: 100%;
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .summarybox {
+        font-size: 18px;
+        padding: 15px;
+    }
+
+    .inputbox {
+        margin: 7px auto;
+    }
+    .concent.end {
+        margin: 20px auto;
+    }
+
+    .wz-wrapper .wz-inner .wz-navigator {
+        text-align: inherit !important;
+        padding: 20px 0 !important;
+    }
+
+    .wz-wrapper .wz-inner .wz-navigator .btn {
+        padding: 14px 25px;
+    }
+
+    .box-tsize,
+    .teeconcent {
+        width: 100%;
+        float: none;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    .textlabel {
+        font-size: 16px;
+        max-width: 100%;
+        float: none;
+        line-height: normal;
+        text-align: center;
+    }
+    .box-input {
+        width: 100%;
+        float: none;
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    .box-teeinfo input.vinput,
+    .box-teeinfo select.vinput {
+        max-width: 100%;
+        padding: 0;
+        min-width: auto;
+    }
+
+    .box-teeinfo .tsize.inputbox:nth-child(odd) {
+        float: left;
+    }
+
+    label:not(.radiobox label) {
+        width: 100%;
+    }
+
+    .accordion .inputbox {
+        width: 100%;
+        padding: 0;
+    }
+    ul.accordion .inner {
+        padding: 10px;
+    }
+    .radiobox label {
+        margin-right: 15px;
+    }
+
+    span.inputnote {
+        position: static;
+    }
+
+    .btn-primary-sm {
+        margin: 5px 12px 5px 0;
+        padding: 2px 15px;
+        border-radius: 25px;
+    }
+
+    .bc1 .icon,
+    .bc3 {
+        display: none;
+    }
+    .box-ticketcounter div {
+        padding: 1px 2px;
+    }
+
+    .box-ticketcounter .name .title {
+        font-size: 18px;
+    }
+    .box-ticketcounter .name .note {
+        font-size: 14px;
+    }
+
+    .chip span {
+        width: 65px;
+        height: 24px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .counter button {
+        height: 45px;
+        width: 35px;
+        line-height: 35px;
+        font-size: 24px;
+    }
+
+    .counter .tcount {
+        width: 35px;
+        height: 45px;
+        line-height: 45px;
+        background-color: transparent;}
+    .bc1{width: 45%;}
+    .bc2{width: 55%;}
+    .wz-step h4{
+        width: 100%;
+        text-align: center;
+        font-size:16px;
+    }
+    .counter button{top: 0;}
+
+    .counter {
+        margin-left: 45px;
+    }
+
+    .outlined-pink + p{
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .outlined-pink .chip:not(.show-xs .chip), .hideon-xs { display: none;}
+
+    .show-xs{display: inline-block;}
+
+    .outlined-pink .note { display: inline-block !important;}
+    .outlined-pink .bc1 {
+        width: 57%;
+    }
+    .outlined-pink .counter {
+        margin: 0 !important;
+    }
+    .outlined-pink .bc2 {
+        width: 43%;
+    }
+
+    span.circle {
+        width: 24px !important;
+        height: 24px !important;
+        display: block !important;
+        margin: 0px auto !important;
+        line-height: 25px !important;
+    }
+
+    .wz-wrapper .wz-inner .wz-header nav a span {
+        position: relative;
+        z-index: 2;
+        top: 2px;
+        text-transform: capitalize;
+    }
+
+    span.headtext {
+        display: block;
+        position: relative;
+        top: 15px !important;
+        border: 0px solid;
+        width: 70px;
+        margin: 0 auto;
+        line-height: normal;
+    }
+
+    .wz-wrapper .wz-inner .wz-header nav {
+        padding: 15px 0;
+    }
+
+    .bottom-strip{
+        height: auto;
+        margin-top: 20px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    span.num:after {
+        white-space: pre;
+        content: '\a';
+    }
+
+    .entrycount {
+        margin-right: 35px;
+    }
+
+    .wz-wrapper .wz-inner .wz-navigator{
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+    }
+    span.ext:after {
+        content: '\a';
+        white-space: pre;
+    }
+
+    .branding {
+        max-width: 150px;
+        margin: 0 auto 10px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1366px){
+    .wz-wrapper.wizzy {
+        min-width: auto;
+        width: 96%;
+    }
+}
+
+@media (min-width:1024px){
+    .entrycount span.num{
+        float: right;
+        margin-left: 10px;
+        line-height: 1;
+    }
+}

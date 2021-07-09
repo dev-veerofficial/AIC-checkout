@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/media.css" rel="stylesheet">
+    <link href="dist/css/jquery.wizzy.css" rel="stylesheet">
+
+    <title>Wizzy</title>
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"
+        integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!-- Brand Logo -->
+        <div class="branding">
+            <a href="javascript:void(0);"> <img src="assets/images/logo.jpg" alt=""></a>
+        </div>
+        <!-- Start Wizzy -->
+        <div class="wz-wrapper wizzy">
+            <div class="wz-inner">
+                <div class="wz-header">
+                    <nav>
+                        <a href="#"> <span class="circle">1</span> <span class="headtext"> Entry Type </span></a>
+                        <a href="#"> <span class="circle">2</span> <span class="headtext"> Personal Details </span></a>
+                        <a href="#"> <span class="circle">3</span> <span class="headtext"> Select T-Shirt Size
+                            </span></a>
+                        <a href="#"> <span class="circle">4</span> <span class="headtext"> Finalise Order </span></a>
+                    </nav>
+                </div>
+                <div class="wz-body">
+                    <div class="wz-step">
+                        <div class="section-wrapper">
+                            <h1><span class="ext">100k in 30 Days -</span> Select Registration Type</h1>
+                            <h4>Please select number of individual entries or choose our Family Pack offer</h4>
+                            <div class="box entrybox filled-light-pink">
+                                <div class="box-ticketcounter">
+                                    <div class="bc1">
+                                        <div class="icon"> <img src="assets/images/adult.png" alt=""> </div>
+                                        <!-- <div class="name">
+                                            <span class="title">Adult</span>
+                                            <span class="note">(Aged 17+)</span>
+                                        </div> -->
+                                        <div class="name">
+                                            <span class="title">Adult</span>
+                                            <span class="note">(Aged 17+)</span>
+                                            <div class="show-xs">
+                                                <div class="chip"> <span>€25.00</span> </div>
+                                            </div>
+                                        </div>
+                                        <!--  -->
+                                    </div>
+                                    <div class="bc2">
+                                        <div class="chip hideon-xs"> <span>€25.00</span> </div>
+                                        <div class="counter">
+                                            <button class="btn">-</button>
+                                            <input type="text" class="tcount" value="0">
+                                            <button class="btn">+</button>
+                                        </div>
+                                    </div>
+                                    <div class="bc3">
+                                        <div class="price">€25.00</div>
+                                    </div>
+                                </div>
+                                <div class="clear"></div>
+                                <hr class="hr-pink">
+                                <div class="box-ticketcounter">
+                                    <div class="bc1">
+                                        <div class="icon"> <img src="assets/images/child.png" alt=""> </div>
+                                        <!-- <div class="name">
+                                            <span class="title">Child</span>
+                                            <span class="note">(Aged 0 to 16 Yrs)</span>
+                                        </div> -->
+                                        <div class="name">
+                                            <span class="title">Child</span>
+                                            <span class="note">(Aged 0 to 16 Yrs)</span>
+                                            <div class="show-xs">
+                                                <div class="chip"> <span>€25.00</span> </div>
+                                            </div>
+                                        </div>
+                                        <!--  -->
+                                    </div>
+                                    <div class="bc2">
+                                        <div class="chip hideon-xs"> <span>€25.00</span> </div>
+                                        <div class="counter">
+                                            <button class="btn">-</button>
+                                            <input type="text" class="tcount" value="0">
+                                            <button class="btn">+</button>
+                                        </div>
+                                    </div>
+                                    <div class="bc3">
+                                        <div class="price">€25.00</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="saperation">OR</div>
+                            <div class="box entrybox outlined-pink">
+                                <div class="box-ticketcounter">
+                                    <div class="bc1">
+                                        <div class="icon"><img src="assets/images/family.png" alt=""></div>
+                                        <div class="name">
+                                            <span class="title">Special Family Pack</span>
+                                            <span class="note">(2 Adults and 2 Kids)</span>
+                                            <span class="highlight">€10 OFF</span>
+                                            <div class="show-xs">
+                                                <div class="chip"> <span>€25.00</span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bc2">
+                                        <div class="chip"> <span>€25.00</span> </div>
+                                        <div class="counter">
+                                            <button class="btn"> - </button>
+                                            <input type="text" class="tcount" value="0">
+                                            <button class="btn"> + </button>
+                                        </div>
+                                    </div>
+                                    <div class="bc3">
+                                        <div class="price">€25.00</div>
+                                    </div>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                            <p>
+                                This is a special family offer for 2 adults and 2 kids, if needed you can add additional
+                                adults or children at the next step.</p>
+                        </div>
+                        <div class="bottom-strip">
+                            <div class="entrycount"> <span class="num">0</span> Total Enteries</div>
+                            <div class="entrycount"> <span class="num">€25.00</span> Sub-Total</div>
+                        </div>
+                    </div>
+                    <div class="wz-step">
+                        <div class="section-wrapper">
+                            <h1>Enter Your Details</h1>
+                            <!--  -->
+                            <ul class="accordion">
+                                <li>
+                                    <div class="toggle completed">
+                                        <a href=#>Adult 1 <i class="fa fa-check-circle"></i></a>
+
+                                        <a href="#" class="btn btn-sm btn-edit">Remove</a>
+                                        <a href="#" class="btn btn-sm btn-edit">Edit</a>
+                                    </div>
+                                    <div class="inner">
+                                        <div class="inputbox">
+                                            <label for="a1-firstname">First Name <br>
+                                                <input type="text" class="vinput" placeholder="Enter First Name">
+                                            </label>
+                                        </div>
+                                        <div class="inputbox">
+                                            <label for="a1-firstname">Last Name <br>
+                                                <input type="text" class="vinput" placeholder="Enter Last Name">
+                                            </label>
+                                        </div>
+                                        <div class="inputbox">
+                                            <label for="a1-firstname">Email Address <br>
+                                                <input type="text" class="vinput" placeholder="Enter Email Address">
+                                            </label>
+                                        </div>
+                                        <div class="inputbox">
+                                            <label for="a1-firstname">Gender</label> <br>
+                                            <div class="radiobox">
+                                                <input type="radio" id="male" name="radio-group1">
+                                                <label for="male">Male</label>
+                                                <input type="radio" id="female" name="radio-group1">
+                                                <label for="female">Female</label>
+                                            </div>
+                                        </div>
+                                        <div class="clear"></div>
+                                        <div class="inputbox">
+                                            <label for="a1-firstname">Phone Number <br>
+                                                <input type="text" class="vinput" placeholder="Enter Phone Number">
+                                            </label>
+                                        </div>
+                                        <div class="inputbox">
+                                            <label for="a1-firstname">Password <br>
+                                                <input type="password" class="vinput" placeholder="Enter Password">
+                                            </label>
+                                        </div>
+                                        <div class="clear"></div>
+                                        <div>
+                                            <a href="" class="btn btn-primary btn-primary-sm">Next</a>
+                                        </div>
+                                    </div>
+
+                                </li>
+
+                                <li>
+                                    <a class="toggle" href=#>Adult 2 </a>
+                                    <div class="inner">
+                                        <div class="inputbox">
+                                            <label for="a1-firstname">First Name <br>
+                                                <input type="text" class="vinput" placeholder="Enter First Name">
+                                            </label>
+                                        </div>
+                                        <div class="inputbox">
+                                            <label for="a1-firstname">Last Name <br>
+                                                <input type="text" class="vinput" placeholder="Enter Last Name">
+                                            </label>
+                                        </div>
+                                        <div class="inputbox">
+                                            <label for="a1-firstname">Email Address <br>
+                                                <input type="text" class="vinput" placeholder="Enter Email Address">
+                                            </label>
+                                            <span class="inputnote"> <em> Your password will be sent here </em></span>
+                                        </div>
+                                        <div class="inputbox">
+                                            <label for="a1-firstname">Gender</label> <br>
+                                            <div class="radiobox">
+                                                <input type="radio" id="male2" name="radio-group2">
+                                                <label for="male2">Male</label>
+                                                <input type="radio" id="female2" name="radio-group2">
+                                                <label for="female2">Female</label>
+                                            </div>
+                                        </div>
+                                        <div class="clear"></div>
+                                        <div class="inputbox">
+                                            <label for="a1-firstname">Phone Number <br>
+                                                <input type="text" class="vinput" placeholder="Enter Phone Number">
+                                            </label>
+                                        </div>
+                                    </div>
+                                </li>
+                                <div>
+                                    <a href="" class="btn btn-primary btn-primary-sm">Add Adult (+€25.00)</a>
+                                    <a href="" class="btn btn-primary btn-primary-sm">Add Child (+€15.00)</a>
+                                </div>
+                                <!-- <li>
+                                <a class="toggle" href=#>Child 1</a>
+                                <p class="inner">
+                                    Let's make a nice big leafy tree. You have to make those little noises or it won't
+                                    work. Let's put some happy little clouds in our world. We don't really know where
+                                    this goes - and I'm not sure we really care. When you do it your way you can go
+                                    anywhere you choose. No worries. No cares. Just float and wait for the wind to blow
+                                    you around.
+                                </p>
+                            </li>
+
+                            <li>
+                                <a class="toggle" href=#>Child 2</a>
+                                <p class="inner">
+                                    Let's make a nice big leafy tree. You have to make those little noises or it won't
+                                    work. Let's put some happy little clouds in our world. We don't really know where
+                                    this goes - and I'm not sure we really care. When you do it your way you can go
+                                    anywhere you choose. No worries. No cares. Just float and wait for the wind to blow
+                                    you around.
+                                </p>
+                            </li> -->
+                            </ul>
+                            <!--  -->
+                        </div>
+                    </div>
+                    <div class="wz-step">
+                        <div class="section-wrapper">
+                            <h1>Select T-Shirt Size</h1>
+                            <span class="lightnote"> <em>* Shipping will be calculated at checkout.</em></span>
+                            <div class="row box-teeinfo">
+                                <div class="col-12 col-md-6">
+                                    <div class="row">
+                                        <div class="col-12 box-tsize">
+                                            <div class="tsize inputbox">
+                                                <label for="a1-firstname">Adult 1<br>
+                                                    <select name="tsize-ad1" id="tsize-ad1" class="vinput">
+                                                        <option value="">Select Size</option>
+                                                        <option value="">M</option>
+                                                        <option value="">L</option>
+                                                        <option value="">XL</option>
+                                                        <option value="">XXL</option>
+                                                    </select>
+                                                </label>
+                                            </div>
+                                            <!--  -->
+                                            <div class="tsize inputbox">
+                                                <label for="a1-firstname">Adult 2<br>
+                                                    <select name="tsize-ad1" id="tsize-ad1" class="vinput">
+                                                        <option value="">Select Size</option>
+                                                        <option value="">M</option>
+                                                        <option value="">L</option>
+                                                        <option value="">XL</option>
+                                                        <option value="">XXL</option>
+                                                    </select>
+                                                </label>
+                                            </div>
+                                            <!--  -->
+                                            <div class="tsize inputbox">
+                                                <label for="a1-firstname">Child 1<br>
+                                                    <select name="tsize-ad1" id="tsize-ad1" class="vinput">
+                                                        <option value="">Select Size</option>
+                                                        <option value="">M</option>
+                                                        <option value="">L</option>
+                                                        <option value="">XL</option>
+                                                        <option value="">XXL</option>
+                                                    </select>
+                                                </label>
+                                            </div>
+                                            <!--  -->
+                                            <div class="tsize inputbox">
+                                                <label for="a1-firstname">Child 2<br>
+                                                    <select name="tsize-ad1" id="tsize-ad1" class="vinput">
+                                                        <option value="">Select Size</option>
+                                                        <option value="">M</option>
+                                                        <option value="">L</option>
+                                                        <option value="">XL</option>
+                                                        <option value="">XXL</option>
+                                                    </select>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 alert alert-warning mx-3">
+                                            Due to overwhelming demand we are restocking and there is a 7 days
+                                            turnaround on L, XL, XXL, and U12, but you will get your t-shirt!
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 teeconcent">
+                                    <div class="dummytee">
+                                        <img src="assets/images/tee.jpg" alt="">
+                                    </div>
+                                    <div class="concent">
+                                        <label for="consent">
+                                            <input type="checkbox" class="vcheckbox" name="consent" id="consent">
+                                            Please check this box if you prefer not to receive a T-Shirt(s)
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                            <div class="box-orginfo">
+                                <div class="orginfo-cntnr">
+                                    <div class="textlabel">Are you participating as part of a company, club or
+                                        organization?
+                                    </div>
+                                    <div class="box-input">
+                                        <select name="selectorg" id="selectorg" class="lg-select vinput">
+                                            <option value="">Select Option</option>
+                                            <option value="">XYZ Organization LLC</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="wz-step">
+                        <div class="section-wrapper">
+                            <h1>Finalise Order</h1>
+                            <div class="bx bx-40">
+                                <h4 class="subheading">Shipping Address</h4>
+                                <div class="inputbox fullwidth">
+                                    <label for="a1-firstname">Address Line 1 <br>
+                                        <input type="text" class="vinput" placeholder="Address Line 1">
+                                    </label>
+                                </div>
+                                <div class="inputbox fullwidth">
+                                    <label for="a1-firstname">Address Line 2 <br>
+                                        <input type="text" class="vinput" placeholder="Address Line 2">
+                                    </label>
+                                </div>
+                                <div class="tsize inputbox">
+                                    <label for="a1-firstname">City / Town <br>
+                                        <input type="text" class="vinput fullwidth" placeholder="Enter Town">
+                                    </label>
+                                </div>
+                                <div class="tsize inputbox">
+                                    <label for="a1-firstname">County <br>
+                                        <input type="text" class="vinput fullwidth" placeholder="Enter Town">
+                                    </label>
+                                </div>
+                                <div class="tsize inputbox">
+                                    <label for="a1-firstname">City <br>
+                                        <input type="text" class="vinput fullwidth" placeholder="Enter Town">
+                                    </label>
+                                </div>
+                                <div class="tsize inputbox">
+                                    <label for="a1-firstname">Country <br>
+                                        <select name="" id="" class="vinput fullwidth">
+                                            <option value="">Select Country</option>
+                                            <option value="">Ireland</option>
+                                            <option value="">India</option>
+                                        </select>
+                                    </label>
+                                </div>
+                                <div class="clear"></div>
+                                <hr class="hr-lightblue">
+                                <div class="discountcode">
+                                    <label for="a1-firstname">Hava a discount code?</label>
+                                    <input type="text" class="vinput lg" placeholder="Enter discount code here">
+                                    <button class="btn btn-attached">APPLY</button>
+                                </div>
+                            </div>
+                            <div class="bx bx-50 bx-ordersummary">
+                                <h4 class="subheading">Order Summary</h4>
+                                <div class="summarybox">
+                                    <div class="smryitem pt0">
+                                        <span class="itemname">1 x Adult</span>
+                                        <span class="itemvalue">€25.00</span>
+                                    </div>
+                                    <div class="smryitem">
+                                        <span class="itemname">1 x Child</span>
+                                        <span class="itemvalue">€25.00</span>
+                                    </div>
+                                    <div class="clear"></div>
+                                    <hr>
+                                    <div class="smryitem pt0">
+                                        <span class="itemname"><strong>Sub-Total</strong></span>
+                                        <span class="itemvalue"><strong>€50.00</strong></span>
+                                    </div>
+                                    <div class="smryitem">
+                                        <span class="itemname">Postage & Package</span>
+                                        <span class="itemvalue">€5.95</span>
+                                    </div>
+                                    <div class="smryitem">
+                                        <span class="itemname">Discount Code</span>
+                                        <span class="itemvalue">€0.00</span>
+                                    </div>
+                                    <div class="clear"></div>
+                                    <hr>
+                                    <div class="smryitem total pt0">
+                                        <span class="itemname"><strong>Total</strong></span>
+                                        <span class="itemvalue"><strong>€55.95</strong></span>
+                                    </div>
+                                </div>
+                                <div class="concent end">
+                                    <label for="consent2">
+                                        <input type="checkbox" class="vcheckbox" name="consent2" id="consent2">
+                                        I wish to cover the payment processing fees of €1.15
+                                    </label>
+                                </div>
+                                <div class="concent end">
+                                    <label for="tnc">
+                                        <input type="checkbox" class="vcheckbox" name="tnc" id="tnc">
+                                        I've read and accept <a href="javascript:void(0)">terms and condition </a>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="wz-navigator"></div>
+            </div>
+        </div>
+        <!-- End Wizzy -->
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="dist/js/jquery.wizzy.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-36251023-1']);
+        _gaq.push(['_setDomainName', 'jqueryscript.net']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script>
+    <script>
+        $('.toggle').click(function (e) {
+            e.preventDefault();
+
+            let $this = $(this);
+
+            if ($this.next().hasClass('show')) {
+                $this.next().removeClass('show');
+                $this.next().slideUp(350);
+            } else {
+                $this.parent().parent().find('li .inner').removeClass('show');
+                $this.parent().parent().find('li .inner').slideUp(350);
+                $this.next().toggleClass('show');
+                $this.next().slideToggle(350);
+            }
+        });
+    </script>
+</body>
+
+</html>
