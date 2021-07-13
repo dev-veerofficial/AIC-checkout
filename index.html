@@ -21,8 +21,8 @@
 
     <div class="wrapper">
         <!-- Brand Logo -->
-        <div class="branding">
-            <a href="javascript:void(0);"> <img src="assets/images/logo.jpg" alt=""></a>
+        <div class="branding text-center">
+            <a href="javascript:void(0);"> <img src="assets/images/logo.png" alt=""></a>
         </div>
         <!-- Start Wizzy -->
         <div class="wz-wrapper wizzy">
@@ -51,7 +51,7 @@
                                         </div> -->
                                         <div class="name">
                                             <span class="title">Adult</span>
-                                            <span class="note">(Aged 17+)</span>
+                                            <span class="note">(Aged 18+)</span>
                                             <div class="show-xs">
                                                 <div class="chip"> <span>€25.00</span> </div>
                                             </div>
@@ -81,7 +81,7 @@
                                         </div> -->
                                         <div class="name">
                                             <span class="title">Child</span>
-                                            <span class="note">(Aged 0 to 16 Yrs)</span>
+                                            <span class="note">(Aged 0 to 18 Yrs)</span>
                                             <div class="show-xs">
                                                 <div class="chip"> <span>€25.00</span> </div>
                                             </div>
@@ -167,7 +167,8 @@
                                             </label>
                                         </div>
                                         <div class="inputbox">
-                                            <label for="a1-firstname">Password <br>
+                                            <label for="a1-firstname">Password <span
+                                                data-toggle="tooltip" data-placement="bottom" title="The password is required to access your account and the event leaderboards."><i class="fa fa-info-circle"></i></span> <br>
                                                 <input type="password" class="vinput" placeholder="Enter Password">
                                             </label>
                                         </div>
@@ -203,7 +204,7 @@
                                                 </select>
                                             </label>
                                         </div>
-                                       
+
                                         <div class="clear"></div>
                                         <div class="d-flex justify-content-end">
                                             <a href="" class="btn btn-primary btn-primary-sm">Next</a>
@@ -279,8 +280,8 @@
                     </div>
                     <div class="wz-step">
                         <div class="section-wrapper">
-                            <h1>Select Jersey Size</h1>
-                            <span class="lightnote"> <em>* Shipping will be calculated at checkout.</em></span>
+                            <h1>Add in Event Jersey</h1>
+                            <span class="lightnote"> <em>€55 including P&P per person</em></span>
                             <div class="row box-teeinfo">
                                 <div class="col-12 col-md-6">
                                     <div class="row">
@@ -356,15 +357,16 @@
                                 </div>
                             </div>
                             <div class="clear"></div>
-                            <div class="box-orginfo">
+                            <!-- <div class="box-orginfo">
                                 <div class="orginfo-cntnr">
                                     <div class="textlabel">
                                         <h5><strong class="text-primary">Total Jersey Cost: €150.00</strong></h5>
-                                        <div>Your Current Total: (€90.00 + €150.00) = <span class="text-primary"><strong>€240.00</strong></span></div>
+                                        <div>Your Current Total: (€90.00 + €150.00) = <span
+                                                class="text-primary"><strong>€240.00</strong></span></div>
                                         <div>Tax and Shipping charge will be added on next step</div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
 
                         </div>
                     </div>
@@ -418,8 +420,10 @@
                             <div class="bx bx-50 bx-ordersummary">
                                 <h4 class="subheading">Order Summary</h4>
                                 <div class="summarybox">
-                                    <div class="smrytitle"><strong>Entry Charges</strong><hr class="midline"></div>
-                                    
+                                    <div class="smrytitle"><strong>Entry Charges</strong>
+                                        <hr class="midline">
+                                    </div>
+
                                     <div class="smryitem pt0">
                                         <span class="itemname">1 x Adult</span>
                                         <span class="itemvalue">€25.00</span>
@@ -429,7 +433,9 @@
                                         <span class="itemvalue">€25.00</span>
                                     </div>
                                     <div class="clear"></div>
-                                    <div class="smrytitle"><strong>Jersey Charges</strong> <hr class="midline"></div>
+                                    <div class="smrytitle"><strong>Jersey Charges</strong>
+                                        <hr class="midline">
+                                    </div>
                                     <div class="smryitem pt0">
                                         <span class="itemname">3 x Jersey</span>
                                         <span class="itemvalue">€150.00</span>
@@ -468,6 +474,8 @@
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
     <script src="dist/js/jquery.wizzy.js"></script>
     <script src="assets/js/script.js"></script>
     <script type="text/javascript">

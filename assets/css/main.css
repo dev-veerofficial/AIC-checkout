@@ -80,7 +80,7 @@ a{
 }
 
 .wz-wrapper .wz-inner .wz-header nav .progress {
-    border-radius: 15px 15px 15px 0;
+    border-radius: 0;
 }
 
 .wz-step h1 {
@@ -695,4 +695,8 @@ hr.midline {
     top: -3px;
     left: 0;
     width: 100%;
+}
+
+.dummytee img {
+    max-width: 100%;
 }
