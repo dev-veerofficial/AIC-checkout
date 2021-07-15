@@ -21,6 +21,22 @@ a{
     color: #006AB7;
 }
 
+.font-primary{font-family: 'Jost', sans-serif;}
+.font-heading{font-weight: bold;}
+.font-18{
+    font-size: 18px;
+}
+.font-18 p {
+    font-size: 18px;
+    margin: 30px auto;
+}
+
+.subheading-2{
+    font-size: 28px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 'extra-light 200';
+}
+
 .show-xs{display: none;}
 
 .centered {
@@ -700,3 +716,4 @@ hr.midline {
 .dummytee img {
     max-width: 100%;
 }
+
