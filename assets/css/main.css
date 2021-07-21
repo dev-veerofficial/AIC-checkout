@@ -476,8 +476,13 @@ label:not(.radiobox label){
 
 .tsize.inputbox{
     width: 50%;
-    min-height: 80px;
+    min-height: 60px;
     margin-bottom: 0;
+}
+
+.box-tsize.scrollable{
+    max-height: 350px;
+    overflow: auto;
 }
 
 .concent{
